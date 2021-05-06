@@ -6,18 +6,21 @@ const MessageList = () => {
         {
           _id: 'd2504a54',
           from: 'John',
+          to: 'Kevin',
           content: 'The event will start next week',
           status: 'unread'
         },
         {
           _id: 'fc7cad74',
           from: 'Martha',
+          to: 'Kevin',
           content: 'I will be traveling soon',
           status: 'read'
         },
         {
           _id: '876ae642',
           from: 'Jacob',
+          to: 'Kevin',
           content: 'Talk later. Have a great day!',
           status: 'read'
         }

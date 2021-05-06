@@ -1,10 +1,14 @@
 const MessageView = ({ message }) => {
-    const { from, status, content } = message;
+    const { from, to, status, content } = message;
     return (
-        <div className="message">
+    <div className="message">
       <div className="field">
         <span className="label">From: </span>
         <span className="value">{from}</span>
+      </div>
+      <div className="field">
+          <span className="label">To: </span>
+          <span className="value">{to}</span>
       </div>
       <div className="field">
         <span className="label">Status: </span>
